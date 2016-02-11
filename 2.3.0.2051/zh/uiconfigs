@@ -1,0 +1,74 @@
+{
+    "webs" : {
+        "main_left_app" : {
+            "minmdbd" : 6,
+            "text" : "应用商店",
+            "imagelist" : "main/app_store_btn_list.png",
+            "imagelistuistatus" : "focus",
+            "url" : "http://miassist.app.xiaomi.com/v3/",
+            "searchurl" : "http://miassist.app.xiaomi.com/v3/search?keywords=",
+            "placetext" : "搜索应用",
+            "package_name" : "com.xiaomi.market.service",
+            "uiorder" : 1
+        },
+        "main_left_game" : {
+            "minmdbd" : 6,
+            "text" : "游戏中心",
+            "imagelist" : "main/game_store_btn_list.png",
+            "imagelistuistatus" : "focus",
+            "url" : "http://mitunes.game.xiaomi.com/v3.0/",
+            "searchurl" : "http://mitunes.game.xiaomi.com/v3.0/index.php?c=app&a=search&keyword=",
+            "placetext" : "搜索游戏",
+            "package_name" : "com.xiaomi.gamecenter.baleservice",
+            "uiorder" : 2
+        },
+        "main_left_wallpaper" : {
+            "minmdbd" : 6,
+            "text" : "壁纸美图",
+            "imagelist" : "main/wallpaper_store_btn_list.png",
+            "imagelistuistatus" : "focus",
+            "url" : "http://partner.adesk.com/#/xiaomizhushou/index",
+            "package_name" : "com.androidesk.baleservice",
+            "uiorder" : 3
+        },
+        "main_left_ring" : {
+            "minmdbd" : 6,
+            "text" : "音乐铃声",
+            "imagelist" : "main/ring_store_btn_list.png",
+            "imagelistuistatus" : "focus",
+            "uiorder" : 4,
+            "sub_tabs" : [
+                    {
+                    "text" : "音乐广场",
+                    "icon" : "web_tool_bar/music_list.png",
+                    "url" : "http://www.xiami.com/market/music/act/xiaomi-app.php#!/",
+                    "searchurl" : "http://www.xiami.com/",
+                    "placetext" : "搜索音乐",
+                    "enable_popup" : true
+                    },
+                    {
+                    "text" : "手机铃声",
+                    "icon" : "web_tool_bar/ring_list.png",
+                    "url" : "http://miapp.kuyinxiu.com/",
+                    "searchurl" : "http://miapp.kuyinxiu.com/s?key=",
+                    "placetext" : "搜索铃声",
+                    "package_name" : "com.kyxm.baleservice",
+                    "enable_popup" : true
+                    }
+            ]
+        },
+        "main_left_video" : {
+            "minmdbd" : 6,
+            "text" : "视频影音",
+            "imagelist" : "main/video_store_btn_list.png",
+            "imagelistuistatus" : "focus",
+            "url" : "http://miassist.app.xiaomi.com/v3/vindex",
+            "searchurl" : "http://miassist.app.xiaomi.com/v3/vsearch?key=",
+            "placetext" : "搜索视频",
+            "package_name" : "com.sohu.sohuvideo",
+            "uiorder" : 5,
+            "enable_popup" : true
+        }
+    },
+	"version" : 11
+}

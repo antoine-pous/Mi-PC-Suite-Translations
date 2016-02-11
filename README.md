@@ -23,3 +23,14 @@ After Mi PC Suite installation it will place an icon on your desktop
 
 ## Contributing:
 You can contribute to this project by adding your own language, providing some fixes or reporting bugs on the tracker.
+
+## Editing files:
+- uiconfigs is a simple JSON file, you can edit it with any text editor
+
+- mres.dll is a binary file, to edit this file you must download [Resource Hacker](http://angusj.com/resourcehacker/) and open the file with it.
+
+Each lines in mres.dll is an item like this: `"key"="replacement"`
+
+Example with english translation:
+
+`"打开文件夹"="打开文件夹"` become `"打开文件夹"="Open"`.
